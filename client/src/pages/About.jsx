@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import bannerImg from '../assets/HamzaHero.png';
+import bannerImg from '../assets/HamzaHero.webp';
 
 const About = () => {
   return (

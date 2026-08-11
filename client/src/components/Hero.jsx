@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import hero from "../assets/HamzaHero.png";
+import hero from "../assets/HamzaHero.webp";
 import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
