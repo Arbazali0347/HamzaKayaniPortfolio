@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Syne:wght@400..800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-dark: #050505;
+  --guitar-red: #A10000; /* Subtle blood red for borders */
+}
+
+
+* {
+  font-family: "Syne", sans-serif;
+}
+
