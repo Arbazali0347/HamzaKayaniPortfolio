@@ -58,7 +58,7 @@ const WhyChooseUsSpotlight = () => {
           <span className="text-[#0066FF] tracking-[0.8em] uppercase text-[11px] font-semibold mb-6 block">
             The Alpha Edge
           </span>
-          <h2 className="text-5xl md:text-6xl font-bold text-white tracking-tighter leading-[0.85] uppercase">
+          <h2 className="text-3xl md:text-6xl font-bold text-white tracking-tighter leading-[0.85] uppercase">
             HAMZA KAYANI <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white/40 to-white/10">
               VISION & METHODOLOGY
