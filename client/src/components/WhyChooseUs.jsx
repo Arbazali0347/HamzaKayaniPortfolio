@@ -22,8 +22,8 @@ const WhyChooseUsSpotlight = () => {
     },
     { 
       icon: <Cpu size={20} />, 
-      title: "TAZ Tech & Indicator Suite", 
-      desc: "Access to TAZ Cadet, Cadet Pro, & Semi-Prime market alert tools." 
+      title: "TAZ Tech & Signal Suite", 
+      desc: "Access to TAZ Course Cadet, Cadet Pro, & AutoSignalX market alert tools." 
     },
     { 
       icon: <Award size={20} />, 
@@ -120,7 +120,7 @@ const WhyChooseUsSpotlight = () => {
                 <p className="text-gray-400 text-xs tracking-widest uppercase">Founder & CEO — Trade Alpha Zone</p>
               </div>
               <p className="text-gray-400 text-[14px] md:text-[15px] font-light leading-loose max-w-lg">
-                Discover why thousands trust Hamza Kayani's market philosophy. Combining institutional SMC/ICT concepts, practical live trading sessions, and proprietary tech tools to build real trader independence.
+                Discover why traders trust Hamza Kayani's market philosophy. Combining institutional SMC/ICT concepts, practical live trading sessions, and proprietary tech tools to build real trader independence.
               </p>
             </div>
 
@@ -157,7 +157,7 @@ const WhyChooseUsSpotlight = () => {
               
               <div className="space-y-1">
                 <p className="text-[9px] text-white/30 uppercase tracking-[0.4em]">Main Flagship</p>
-                <p className="text-[11px] text-white/80 uppercase tracking-[0.1em] font-medium">Shah Faisal Colony, Karachi</p>
+                <p className="text-[11px] text-white/80 uppercase tracking-[0.1em] font-medium">Shahfaisal Colony, Karachi</p>
               </div>
             </div>
           </motion.div>

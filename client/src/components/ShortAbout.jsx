@@ -89,11 +89,11 @@ const ShortAbout = () => {
             </div>
             <div>
               <p className="text-[#0066FF] text-[10px] tracking-[0.3em] uppercase mb-1 font-medium">Physical Network</p>
-              <p className="text-white text-xs md:text-sm font-light">3+ Campuses in Karachi</p>
+              <p className="text-white text-xs md:text-sm font-light">3 Campuses in Karachi</p>
             </div>
             <div>
               <p className="text-[#0066FF] text-[10px] tracking-[0.3em] uppercase mb-1 font-medium">Core Tech</p>
-              <p className="text-white text-xs md:text-sm font-light">TAZ Cadet Software Suite</p>
+              <p className="text-white text-xs md:text-sm font-light">Cadet, Cadet Pro & AutoSignalX</p>
             </div>
           </div>
 

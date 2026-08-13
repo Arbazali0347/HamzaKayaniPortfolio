@@ -64,7 +64,7 @@ const FounderSection = () => {
               </p>
 
               <p className="text-white/60 text-sm leading-relaxed mb-8">
-                Mentored by industry veterans with over 25+ years of market exposure. Hamza Kayani specializes in Gold, Currencies, Bitcoin, and Oil — instilling strict risk management, market structure, SMC/ICT concepts, and supply-demand precision into thousands of active learners.
+                Mentored by industry veterans with over 25+ years of market exposure. Hamza Kayani specializes in Gold, Currencies, Bitcoin, and Oil — instilling strict risk management, market structure, SMC/ICT concepts, and supply-demand precision into active learners across TAZ's Karachi campuses.
               </p>
 
               {/* Tags */}
@@ -80,7 +80,7 @@ const FounderSection = () => {
             <div className="mt-10 pt-6 border-t border-white/5 flex flex-wrap justify-between items-center gap-4">
               <div className="flex items-center gap-2 text-white/40 text-[10px] uppercase tracking-widest">
                 <Award size={14} className="text-[#0066FF]" />
-                <span>Mentoring 10,000+ Community Members</span>
+                <span>Growing Trader & Skills Community Across Karachi</span>
               </div>
             </div>
           </motion.div>
@@ -108,9 +108,9 @@ const FounderSection = () => {
 
               <div className="space-y-3">
                 {[
-                  { name: 'TAZ Cadet', desc: 'Entry-level structural market scanner' },
-                  { name: 'TAZ Cadet Pro', desc: 'Advanced multi-timeframe analysis suite' },
-                  { name: 'TAZ Semi-Prime', desc: 'Institutional order block & liquidity alert tool' },
+                  { name: 'TAZ Course Cadet', desc: 'Academy training tool with live signal status & structure guidance' },
+                  { name: 'TAZ Cadet Pro', desc: 'Advanced multi-timeframe analysis & alert suite' },
+                  { name: 'AutoSignalX', desc: 'Algorithmic automated signal & liquidity filtering system' },
                 ].map((item) => (
                   <div key={item.name} className="p-3.5 bg-black/50 border border-white/5 rounded-xl flex items-center justify-between">
                     <div>
@@ -124,7 +124,7 @@ const FounderSection = () => {
             </div>
 
             <div className="mt-8 pt-6 border-t border-white/5 text-white/30 text-[9px] uppercase tracking-[0.3em]">
-              Free Access For TAZ Community
+              Access For TAZ Community — Contact Team TAZ For Details
             </div>
           </motion.div>
 
@@ -141,7 +141,7 @@ const FounderSection = () => {
                 <span>Karachi Campuses</span>
               </div>
               <h4 className="text-white text-lg font-light">Physical Presence & Live Trading Floors</h4>
-              <p className="text-white/40 text-xs mt-1">Shah Faisal Colony (Flagship) | Model Colony | Saudabad</p>
+              <p className="text-white/40 text-xs mt-1">Shahfaisal (Flagship) | Model Colony | Saudabad</p>
             </div>
             <a 
               href="/contact" 

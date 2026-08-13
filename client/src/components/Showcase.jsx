@@ -1,36 +1,28 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import showcase from "../assets/show_1.webp";
-import showcase2 from "../assets/show_2.webp";
+import showcase from "../assets/show4.webp";
+import showcase2 from "../assets/show2.webp";
 import showcase3 from "../assets/show_3.jpg";
-import showcase4 from "../assets/past-fetival.webp";
+import showcase4 from "../assets/show3.webp";
 
 const showcaseItems = [
   {
     id: 1,
-    title: "TAZ Grand Event 2026",
-    category: "Annual Summit & Awards",
     img: showcase3,
     layoutClass: "col-span-1 md:col-span-2 h-[420px] md:h-[500px]"
   },
   {
     id: 2,
-    title: "TAZ Trading Feast",
-    category: "Live Market Competitions",
     img: showcase2,
     layoutClass: "col-span-1 md:col-span-1 h-[420px] md:h-[500px]"
   },
   {
     id: 3,
-    title: "Campus Expansions",
-    category: "Shah Faisal, Model Colony & Saudabad",
     img: showcase,
     layoutClass: "col-span-1 md:col-span-1 h-[350px]"
   },
   {
     id: 4,
-    title: "Excellence Awards & Mentorship",
-    category: "Passing-Out Ceremonies",
     img: showcase4,
     layoutClass: "col-span-1 md:col-span-2 h-[350px]"
   }

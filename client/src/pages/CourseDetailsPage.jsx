@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import eventImg from "../assets/show_3.jpg";
-import tradingImg from "../assets/Study.jpeg";
+import tradingImg from "../assets/show1.webp";
 // =========================================================================
 // IMAGE VARIABLES (Apne requirements ke mutabiq local assets ya URLs change karlein)
 // =========================================================================
@@ -31,7 +31,7 @@ const CourseDetailsPage = () => {
               <span className="text-[#0066FF] font-semibold">For Everyone</span>
             </h1>
             <p className="text-gray-400 text-sm md:text-base leading-relaxed mb-8">
-              Founded by Hamza Kayani, Trade Alpha Zone combines practical trading education, professional skill development, proprietary software, and physical campus mentorship across Karachi.
+              Founded by Hamza Kayani, TAZ Institute (Trade Alpha Zone) combines practical trading education, proprietary signal software, professional digital-skill development, and physical campus mentorship across Karachi.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="#trading" className="bg-[#0066FF] hover:bg-blue-600 text-white text-xs tracking-wider uppercase px-6 py-3 font-medium transition-all">
@@ -63,7 +63,7 @@ const CourseDetailsPage = () => {
             <span className="text-[#0066FF] text-xs tracking-[0.3em] uppercase font-semibold font-mono">FINANCIAL EDUCATION</span>
             <h2 className="text-2xl md:text-4xl font-light mt-2">Financial Markets & Trading Methodology</h2>
             <p className="text-gray-400 text-xs mt-2 max-w-2xl">
-              Led by CEO Hamza Kayani (second-generation trader mentored by a 25+ year market professional), focusing primarily on Gold, Currencies, Bitcoin, and Oil.
+              Led by Founder & CEO Hamza Kayani, second-generation trader, focusing on Gold, Forex Currencies, Bitcoin, and Oil. One flagship programme, beginner to advanced, taught across TAZ's Karachi campuses.
             </p>
           </div>
 
@@ -77,16 +77,18 @@ const CourseDetailsPage = () => {
                 </p>
                 <div className="grid grid-cols-2 gap-2 text-xs text-gray-300">
                   <div className="flex items-center gap-2"><span className="text-[#0066FF]">✓</span> Market Structure</div>
-                  <div className="flex items-center gap-2"><span className="text-[#0066FF]">✓</span> EMA & RSI Strategies</div>
+                  <div className="flex items-center gap-2"><span className="text-[#0066FF]">✓</span> Indicators, EMA & RSI</div>
                   <div className="flex items-center gap-2"><span className="text-[#0066FF]">✓</span> Supply and Demand</div>
-                  <div className="flex items-center gap-2"><span className="text-[#0066FF]">✓</span> SMC / ICT Concepts</div>
+                  <div className="flex items-center gap-2"><span className="text-[#0066FF]">✓</span> Smart Money Concepts (SMC)</div>
+                  <div className="flex items-center gap-2"><span className="text-[#0066FF]">✓</span> Liquidity & Order Flow</div>
+                  <div className="flex items-center gap-2"><span className="text-[#0066FF]">✓</span> Risk & Position Sizing</div>
                 </div>
               </div>
 
               <div className="bg-[#111] p-6 border border-white/5">
                 <h3 className="text-base font-semibold text-white mb-2">Teaching Philosophy</h3>
                 <p className="text-gray-400 text-xs leading-relaxed">
-                  Practical learning, emotional discipline, proper risk-to-reward planning, live-market experience, and 24/7 educational session support.
+                  Practical learning over theory, live-market analysis, trading psychology and discipline, workshops, and lifetime community mentorship after course completion.
                 </p>
               </div>
             </div>
@@ -110,32 +112,32 @@ const CourseDetailsPage = () => {
         <div className="max-w-7xl mx-auto">
           <div className="mb-12">
             <span className="text-[#0066FF] text-xs tracking-[0.3em] uppercase font-semibold font-mono">PROPRIETARY TOOLS</span>
-            <h2 className="text-2xl md:text-4xl font-light mt-2">TAZ Trading Software Initiatives</h2>
-            <p className="text-gray-400 text-xs mt-2">Educational tools designed for market analysis, structured guidance, and smart alerts.</p>
+            <h2 className="text-2xl md:text-4xl font-light mt-2">TAZ Trading Software Ecosystem</h2>
+            <p className="text-gray-400 text-xs mt-2">Educational and analytical tools designed for market structure, signal readiness, and disciplined execution. Signals are informational — traders remain responsible for execution and risk.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-[#111] p-6 border border-white/5 hover:border-[#0066FF]/40 transition-all">
-              <span className="text-[#0066FF] text-[10px] font-mono uppercase tracking-widest block mb-2">Trading Tool</span>
-              <h3 className="text-lg font-medium text-white mb-2">TAZ Cadet</h3>
+              <span className="text-[#0066FF] text-[10px] font-mono uppercase tracking-widest block mb-2">Academy Training Tool</span>
+              <h3 className="text-lg font-medium text-white mb-2">TAZ Course Cadet</h3>
               <p className="text-gray-400 text-xs leading-relaxed">
-                Fundamental learning tool providing basic market structure indicators, risk calculation, and beginner-friendly chart guidance.
+                TradingView-based training system for academy trainees — live signal status, entry/SL/TP levels, pullback and momentum signal families, and historical setup review.
               </p>
             </div>
 
             <div className="bg-[#111] p-6 border border-[#0066FF]/30 relative hover:border-[#0066FF] transition-all">
-              <span className="text-[#0066FF] text-[10px] font-mono uppercase tracking-widest block mb-2">Advanced Algorithmic Tool</span>
+              <span className="text-[#0066FF] text-[10px] font-mono uppercase tracking-widest block mb-2">Advanced Signal System</span>
               <h3 className="text-lg font-medium text-white mb-2">TAZ Cadet Pro</h3>
               <p className="text-gray-400 text-xs leading-relaxed">
-                Enhanced analysis software with multi-timeframe precision, automated momentum markers, and real-time execution support.
+                Public-facing market-structure system with active/closed signal states, multi-timeframe alignment, quality filters, alerts, and closed-result review.
               </p>
             </div>
 
             <div className="bg-[#111] p-6 border border-white/5 hover:border-[#0066FF]/40 transition-all">
-              <span className="text-[#0066FF] text-[10px] font-mono uppercase tracking-widest block mb-2">Institutional Concept Tool</span>
-              <h3 className="text-lg font-medium text-white mb-2">TAZ Semi-Prime</h3>
+              <span className="text-[#0066FF] text-[10px] font-mono uppercase tracking-widest block mb-2">Algorithmic Ecosystem</span>
+              <h3 className="text-lg font-medium text-white mb-2">AutoSignalX</h3>
               <p className="text-gray-400 text-xs leading-relaxed">
-                Specialized market tracking tool focusing on smart market alerts, liquidity identification, and high-probability setup alerts.
+                Internally developed algorithmic system for automated signals, rule-based trade management, liquidity and market-structure filtering with validation logic.
               </p>
             </div>
           </div>
@@ -149,10 +151,17 @@ const CourseDetailsPage = () => {
           <div className="mb-12">
             <span className="text-[#0066FF] text-xs tracking-[0.3em] uppercase font-semibold font-mono">TAZ FLAGSHIP INSTITUTE</span>
             <h2 className="text-2xl md:text-4xl font-light mt-2">Professional Skill & Digital Courses</h2>
-            <p className="text-gray-400 text-xs mt-2">Empowering youth with high-demand digital skills and entrepreneurship training.</p>
+            <p className="text-gray-400 text-xs mt-2">Empowering youth with high-demand digital skills and entrepreneurship training, primarily at the Shahfaisal Flagship Campus.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-[#111] p-6 border border-white/5">
+              <h3 className="text-base font-semibold text-white mb-2">Advanced Smart Money Concepts</h3>
+              <p className="text-gray-400 text-xs leading-relaxed">
+                Institutional order flow, advanced SMC strategy, and deeper market-structure trading concepts.
+              </p>
+            </div>
+
             <div className="bg-[#111] p-6 border border-white/5">
               <h3 className="text-base font-semibold text-white mb-2">Graphic Designing</h3>
               <p className="text-gray-400 text-xs leading-relaxed">
@@ -168,16 +177,23 @@ const CourseDetailsPage = () => {
             </div>
 
             <div className="bg-[#111] p-6 border border-white/5">
-              <h3 className="text-base font-semibold text-white mb-2">Freelancing & Online Earning</h3>
+              <h3 className="text-base font-semibold text-white mb-2">Social Media Marketing with AI</h3>
               <p className="text-gray-400 text-xs leading-relaxed">
-                Client acquisition, Fiverr/Upwork profile building, proposal writing, and remote work strategies.
+                AI-driven content strategies, targeted ad campaigns, YouTube automation, and digital media analytics.
               </p>
             </div>
 
             <div className="bg-[#111] p-6 border border-white/5">
-              <h3 className="text-base font-semibold text-white mb-2">Social Media Marketing with AI</h3>
+              <h3 className="text-base font-semibold text-white mb-2">Digital Skills & E-Commerce</h3>
               <p className="text-gray-400 text-xs leading-relaxed">
-                AI-driven content strategies, targeted ad campaigns, brand growth, and digital media analytics.
+                AI automation, e-commerce setup, and modern digital-skills training for online growth.
+              </p>
+            </div>
+
+            <div className="bg-[#111] p-6 border border-white/5">
+              <h3 className="text-base font-semibold text-white mb-2">Freelancing & Online Earning</h3>
+              <p className="text-gray-400 text-xs leading-relaxed">
+                Client acquisition, Fiverr/Upwork profile building, proposal writing, and remote work strategies.
               </p>
             </div>
 
@@ -210,26 +226,26 @@ const CourseDetailsPage = () => {
               <span className="bg-[#0066FF]/20 text-[#0066FF] text-[9px] uppercase tracking-widest px-2 py-1 font-semibold inline-block mb-3">
                 Flagship
               </span>
-              <h3 className="text-lg font-medium text-white mb-1">Shah Faisal Colony Campus</h3>
-              <p className="text-xs text-gray-400 mb-3">Karachi Main Hub</p>
+              <h3 className="text-lg font-medium text-white mb-1">Shahfaisal Campus</h3>
+              <p className="text-xs text-gray-400 mb-3">Naila Hospital Road, Opp. Punjab Ground, Shah Faisal Colony, Karachi</p>
               <p className="text-gray-400 text-xs leading-relaxed">
-                Main center for live trading sessions, flagship institute skill classes, and physical mentorship.
+                Headquarters and largest expansion — trading floor, TAZ Traders Lounge, live sessions, and flagship digital-skills institute.
               </p>
             </div>
 
             <div className="bg-[#111] p-6 border border-white/5">
               <h3 className="text-lg font-medium text-white mb-1">Model Colony Campus</h3>
-              <p className="text-xs text-[#0066FF] mb-3">Karachi Branch</p>
+              <p className="text-xs text-[#0066FF] mb-3">Liaquat Ali Khan Road, Block 10, Model Colony — via Linguaphile Academia</p>
               <p className="text-gray-400 text-xs leading-relaxed">
-                Practical training facilities, skill labs, and student community learning support.
+                Trading education, practical training facilities, and student community learning support.
               </p>
             </div>
 
             <div className="bg-[#111] p-6 border border-white/5">
               <h3 className="text-lg font-medium text-white mb-1">Saudabad Campus</h3>
-              <p className="text-xs text-[#0066FF] mb-3">Karachi Branch</p>
+              <p className="text-xs text-[#0066FF] mb-3">Indus Mehran, Saudabad — via Skill Box Institute</p>
               <p className="text-gray-400 text-xs leading-relaxed">
-                Dedicated branch for regional student access, market sessions, and foundational courses.
+                Dedicated branch for regional student access, trading education, and foundational courses.
               </p>
             </div>
           </div>
@@ -250,21 +266,21 @@ const CourseDetailsPage = () => {
               <div className="border-l-2 border-[#0066FF] pl-4 py-2">
                 <h3 className="text-base font-semibold text-white">TAZ Grand Event 2026</h3>
                 <p className="text-gray-400 text-xs mt-1">
-                  Major financial education summit gathering community members, market learners, and mentors.
+                  Held 15 June 2026 at Zam Zam Marquee — passing-out ceremony, financial-awareness session, software launch, awards, and community celebration.
                 </p>
               </div>
 
               <div className="border-l-2 border-white/20 pl-4 py-2">
-                <h3 className="text-base font-semibold text-white">TAZ Trading Feast Competitions</h3>
+                <h3 className="text-base font-semibold text-white">TAZ Trading Feast 2026</h3>
                 <p className="text-gray-400 text-xs mt-1">
-                  Live market trading challenges rewarding disciplined execution, proper risk management, and trading accuracy.
+                  Live market trading competition (1–12 June 2026). Champion: Ubaid. Runner-up: Shoaib Khan. Second runner-up: Hamza.
                 </p>
               </div>
 
               <div className="border-l-2 border-white/20 pl-4 py-2">
-                <h3 className="text-base font-semibold text-white">TAZ Trading Excellence Awards & Ceremonies</h3>
+                <h3 className="text-base font-semibold text-white">Shahfaisal Flagship & Traders Lounge Opening</h3>
                 <p className="text-gray-400 text-xs mt-1">
-                  Passing-out ceremonies recognizing successful students, traders, and skill course graduates.
+                  Opened 2 August 2026 — TAZ's largest physical expansion, combining the flagship institute with a member-only Traders Lounge.
                 </p>
               </div>
             </div>
@@ -281,13 +297,13 @@ const CourseDetailsPage = () => {
       <section className="py-12 px-6 md:px-16 bg-[#050505] text-xs text-gray-400 border-t border-white/5">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <div>
-            <p className="text-white font-medium">Trade Alpha Zone — Official Public Info</p>
+            <p className="text-white font-medium">TAZ Institute (Trade Alpha Zone) — Official Public Info</p>
             <p className="text-gray-500 mt-1">Founder & CEO: Hamza Kayani</p>
           </div>
           <div className="flex flex-wrap justify-center gap-6 text-gray-300">
             <span>🌐 www.tradealphazone.com</span>
             <span>📸 @trade_alpha_zone</span>
-            <span>✉️ Contact@tradealphazone.com</span>
+            <span>✉️ contact@tradealphazone.com</span>
             <span>📞 0315-2939539</span>
           </div>
         </div>
