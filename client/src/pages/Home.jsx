@@ -5,12 +5,14 @@ import WhyChooseUs from '../components/WhyChooseUs'
 import Testimonials from '../components/Testimonials'
 import ShortAbout from '../components/ShortAbout'
 import FounderSection from '../components/FounderSection'
+import SocialMediaHub from '../components/SocialMediaHub'
 
 const Home = () => {
   return (
     <div>
         <Hero/>
         <Showcase/>
+        <SocialMediaHub/>
         <WhyChooseUs/>
         <FounderSection/>
         <ShortAbout/>

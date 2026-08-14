@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import eventImg from "../assets/show_3.jpg";
 import tradingImg from "../assets/show1.webp";
+import heroImg from "../assets/Education.jpeg"
 // =========================================================================
 // IMAGE VARIABLES (Apne requirements ke mutabiq local assets ya URLs change karlein)
 // =========================================================================
-const heroImg = "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=1200";
 const softwareImg = "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800";
 const skillsImg = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800";
 const campusImg = "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800";
@@ -14,7 +14,6 @@ const campusImg = "https://images.unsplash.com/photo-1522071820081-009f0129c71c?
 const CourseDetailsPage = () => {
   return (
     <div className="bg-[#080808] text-white min-h-screen font-sans">
-
       {/* 1. HERO BANNER */}
       <section className="relative py-20 px-6 md:px-16 border-b border-white/10 overflow-hidden">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center mt-12">
