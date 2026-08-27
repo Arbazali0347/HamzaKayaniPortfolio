@@ -154,59 +154,111 @@ const CourseDetailsPage = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-[#111] p-6 border border-white/5">
+
+            {/* 1. Advanced Smart Money Concepts (Alag kar diya) */}
+            <div className="bg-[#111] p-6 border border-white/5 hover:border-[#0066FF]/30 transition-all duration-300">
+              <div className="text-[#0066FF] mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 2v20"></path><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
               <h3 className="text-base font-semibold text-white mb-2">Advanced Smart Money Concepts</h3>
               <p className="text-gray-400 text-xs leading-relaxed">
                 Institutional order flow, advanced SMC strategy, and deeper market-structure trading concepts.
               </p>
             </div>
 
-            <div className="bg-[#111] p-6 border border-white/5">
-              <h3 className="text-base font-semibold text-white mb-2">Graphic Designing</h3>
+            {/* 1. Trading Education */}
+            <div className="bg-[#111] p-6 border border-white/5 hover:border-[#0066FF]/30 transition-all duration-300">
+              <div className="text-[#0066FF] mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 4v16"></path><path d="M14 16v-8"></path><path d="M10 20v-4"></path><path d="M6 12V4"></path><path d="M4 12h4"></path><path d="M8 8h4"></path><path d="M12 16h4"></path><path d="M16 8h4"></path>
+                </svg>
+              </div>
+              <h3 className="text-base font-semibold text-white mb-2">Trading Education</h3>
               <p className="text-gray-400 text-xs leading-relaxed">
-                Visual branding, UI/UX essentials, creative design tools, and portfolio creation.
+                Market basics, chart analysis, key indicators, and risk management for new traders.
               </p>
             </div>
 
-            <div className="bg-[#111] p-6 border border-white/5">
+            {/* 2. AI & Automation */}
+            <div className="bg-[#111] p-6 border border-white/5 hover:border-[#0066FF]/30 transition-all duration-300">
+              <div className="text-[#0066FF] mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="3" y="11" width="18" height="10" rx="2"></rect><circle cx="12" cy="5" r="2"></circle><path d="M12 7v4"></path><line x1="8" y1="16" x2="8" y2="16"></line><line x1="16" y1="16" x2="16" y2="16"></line>
+                </svg>
+              </div>
+              <h3 className="text-base font-semibold text-white mb-2">AI & Automation</h3>
+              <p className="text-gray-400 text-xs leading-relaxed">
+                Practical applications of AI in diverse workflows, machine learning basics, and automation tools.
+              </p>
+            </div>
+
+            {/* 3. Social Media Marketing */}
+            <div className="bg-[#111] p-6 border border-white/5 hover:border-[#0066FF]/30 transition-all duration-300">
+              <div className="text-[#0066FF] mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><path d="M14 2c4.4 0 8 3.6 8 8"></path>
+                </svg>
+              </div>
+              <h3 className="text-base font-semibold text-white mb-2">Social Media Marketing</h3>
+              <p className="text-gray-400 text-xs leading-relaxed">
+                AI-driven content strategies, targeted ad campaigns, and digital media analytics.
+              </p>
+            </div>
+
+            {/* 4. E-Commerce */}
+            <div className="bg-[#111] p-6 border border-white/5 hover:border-[#0066FF]/30 transition-all duration-300">
+              <div className="text-[#0066FF] mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+              </div>
+              <h3 className="text-base font-semibold text-white mb-2">E-Commerce</h3>
+              <p className="text-gray-400 text-xs leading-relaxed">
+                Business models, e-commerce platform setup, inventory management, and retail strategies.
+              </p>
+            </div>
+
+            {/* 5. YouTube Automation */}
+            <div className="bg-[#111] p-6 border border-white/5 hover:border-[#0066FF]/30 transition-all duration-300">
+              <div className="text-[#0066FF] mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                </svg>
+              </div>
+              <h3 className="text-base font-semibold text-white mb-2">YouTube Automation</h3>
+              <p className="text-gray-400 text-xs leading-relaxed">
+                Niche research, channel building, AI content sourcing, and monetization at scale.
+              </p>
+            </div>
+
+            {/* 6. Digital Skills */}
+            <div className="bg-[#111] p-6 border border-white/5 hover:border-[#0066FF]/30 transition-all duration-300">
+              <div className="text-[#0066FF] mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3 className="text-base font-semibold text-white mb-2">Digital Skills</h3>
+              <p className="text-gray-400 text-xs leading-relaxed">
+                Core competencies in modern digital tools, data handling, and essential online operations.
+              </p>
+            </div>
+
+            {/* 8. Web Development (As Requested) */}
+            <div className="bg-[#111] p-6 border border-white/5 hover:border-[#0066FF]/30 transition-all duration-300">
+              <div className="text-[#0066FF] mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline><line x1="12" y1="4" x2="12" y2="20"></line>
+                </svg>
+              </div>
               <h3 className="text-base font-semibold text-white mb-2">Web Development</h3>
               <p className="text-gray-400 text-xs leading-relaxed">
                 Modern web creation, responsive interfaces, site deployment, and online portal management.
               </p>
             </div>
 
-            <div className="bg-[#111] p-6 border border-white/5">
-              <h3 className="text-base font-semibold text-white mb-2">Social Media Marketing with AI</h3>
-              <p className="text-gray-400 text-xs leading-relaxed">
-                AI-driven content strategies, targeted ad campaigns, YouTube automation, and digital media analytics.
-              </p>
-            </div>
-
-            <div className="bg-[#111] p-6 border border-white/5">
-              <h3 className="text-base font-semibold text-white mb-2">Digital Skills & E-Commerce</h3>
-              <p className="text-gray-400 text-xs leading-relaxed">
-                AI automation, e-commerce setup, and modern digital-skills training for online growth.
-              </p>
-            </div>
-
-            <div className="bg-[#111] p-6 border border-white/5">
-              <h3 className="text-base font-semibold text-white mb-2">Freelancing & Online Earning</h3>
-              <p className="text-gray-400 text-xs leading-relaxed">
-                Client acquisition, Fiverr/Upwork profile building, proposal writing, and remote work strategies.
-              </p>
-            </div>
-
-            <div className="bg-[#111] p-6 border border-white/5">
-              <h3 className="text-base font-semibold text-white mb-2">Business & Entrepreneurship</h3>
-              <p className="text-gray-400 text-xs leading-relaxed">
-                Business setup models, startup execution, financial management, and leadership development.
-              </p>
-            </div>
-
-            <div className="bg-[#111] p-6 border border-white/5 flex flex-col justify-center items-center text-center">
-              <span className="text-[#0066FF] text-xs font-semibold uppercase tracking-wider mb-1">Community Support</span>
-              <p className="text-white text-sm font-medium">Lifetime Mentorship Included</p>
-            </div>
           </div>
         </div>
       </section>
